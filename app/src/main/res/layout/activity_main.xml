@@ -12,28 +12,32 @@
 
 
 <LinearLayout
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_top_margin">
 
 
 
         <Button
             android:id="@+id/majrChord"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/major"/>
+            android:text="@string/major"
+            android:onClick="showMajorScreen"/>
         <Button
             android:id="@+id/minrChord"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/minor"/>
+            android:text="@string/minor"
+            android:onClick="showMinorScreen"/>
         <Button
             android:id="@+id/help"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/help"/>
+            android:text="@string/help"
+            android:onClick="showHelpScreen"/>
 
 </LinearLayout>
 
