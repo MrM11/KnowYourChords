@@ -3,4 +3,7 @@
     <string name="major">Major Chords</string>
     <string name="minor">Minor Chords</string>
     <string name="help">Help</string>
+    <string name="help_step1">1) Click on the type of chords you would like to learn.</string>
+    <string name="help_step2">2) Then click on which chord you want to learn to play</string>
+    <string name="help_step3">3) You may want to click on the listen button to hear how the chord is supposed to be played</string>
 </resources>
