@@ -1,48 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-<ImageButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="null"
-    android:src="@drawable/amajorbtn"/>
-    <ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="null"
-        android:src="@drawable/bmajorbtn"/>
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="null"
-        android:src="@drawable/cmajorbtn"/>
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="75dp">
+
+        <ImageButton
+            android:id="@+id/aMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/amajorbtn"
+            android:paddingEnd="@dimen/btn_space"/>
+
+        <ImageButton
+            android:id="@+id/bMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/bmajorbtn" />
+
+        <ImageButton
+            android:id="@+id/cMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/cmajorbtn"
+            android:paddingStart="@dimen/btn_space"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
 
         <ImageButton
+            android:id="@+id/dMajor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="null"
-            android:src="@drawable/dmajorbtn"/>
+            android:background="@null"
+            android:src="@drawable/dmajorbtn"
+            android:paddingEnd="@dimen/btn_space"/>
+
         <ImageButton
+            android:id="@+id/eMajor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="null"
-            android:src="@drawable/emajorbtn"/>
+            android:background="@null"
+            android:src="@drawable/emajorbtn" />
+
         <ImageButton
+            android:id="@+id/fMajor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="null"
-            android:src="@drawable/fmajorbtn"/>
-        </LinearLayout>
+            android:background="@null"
+            android:src="@drawable/fmajorbtn"
+            android:paddingStart="@dimen/btn_space"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <ImageButton
+            android:id="@+id/gMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/gmajorbtn"
+            android:paddingEnd="@dimen/btn_space"/>
+
+        <ImageButton
+            android:id="@+id/e7Major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/e7majorbtn" />
+
+        <ImageButton
+            android:id="@+id/a7Major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/a7majorbtn"
+            android:paddingStart="@dimen/btn_space"/>
+    </LinearLayout>
 </LinearLayout>

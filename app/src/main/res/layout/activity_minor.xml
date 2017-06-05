@@ -3,4 +3,98 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="75dp">
+
+        <ImageButton
+            android:id="@+id/aMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/aminorbtn"
+            android:paddingEnd="@dimen/btn_space"/>
+
+        <ImageButton
+            android:id="@+id/bMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/bminorbtn" />
+
+        <ImageButton
+            android:id="@+id/cMinor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/cminorbtn"
+            android:paddingStart="@dimen/btn_space"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <ImageButton
+            android:id="@+id/dMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/dminorbtn"
+            android:paddingEnd="@dimen/btn_space"/>
+
+        <ImageButton
+            android:id="@+id/eMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/eminorbtn" />
+
+        <ImageButton
+            android:id="@+id/fMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/fminorbtn"
+            android:paddingStart="@dimen/btn_space"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <ImageButton
+            android:id="@+id/gMinor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/gminorbtn"
+            android:paddingEnd="@dimen/btn_space"/>
+
+        <ImageButton
+            android:id="@+id/eMinor7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/eminor7btn" />
+
+        <ImageButton
+            android:id="@+id/aMinor7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/aminor7btn"
+            android:paddingStart="@dimen/btn_space"/>
+    </LinearLayout>
+
 </LinearLayout>

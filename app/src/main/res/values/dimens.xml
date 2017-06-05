@@ -6,4 +6,5 @@
     <dimen name="text_small">10dp</dimen>
     <dimen name="text_medium">25dp</dimen>
     <dimen name="text_large">50dp</dimen>
+    <dimen name="btn_space">25dp</dimen>
 </resources>
