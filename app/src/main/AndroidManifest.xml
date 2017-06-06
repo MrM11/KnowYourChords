@@ -44,6 +44,16 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".AMajActivity"/>
+        <activity android:name=".A7MajActivity"/>
+        <activity android:name=".BMajActivity"/>
+        <activity android:name=".CMajActivity"/>
+        <activity android:name=".DMajActivity"/>
+        <activity android:name=".EMajActivity"/>
+        <activity android:name=".E7MajActivity"/>
+        <activity android:name=".FMajActivity"/>
+        <activity android:name=".GMajActivity"/>
+
     </application>
 
 </manifest>

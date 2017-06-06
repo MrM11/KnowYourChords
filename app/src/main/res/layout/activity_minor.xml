@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/aminorbtn"
-            android:paddingEnd="@dimen/btn_space"/>
+            android:paddingRight="@dimen/btn_space"/>
 
         <ImageButton
             android:id="@+id/bMinor"

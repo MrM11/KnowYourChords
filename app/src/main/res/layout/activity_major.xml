@@ -18,14 +18,16 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/amajorbtn"
-            android:paddingEnd="@dimen/btn_space"/>
+            android:paddingEnd="@dimen/btn_space"
+            android:onClick="showAMajorScreen"/>
 
         <ImageButton
             android:id="@+id/bMajor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/bmajorbtn" />
+            android:src="@drawable/bmajorbtn"
+            android:onClick="showBMajorScreen"/>
 
         <ImageButton
             android:id="@+id/cMajor"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/cmajorbtn"
-            android:paddingStart="@dimen/btn_space"/>
+            android:paddingStart="@dimen/btn_space"
+            android:onClick="showCMajorScreen"/>
 
     </LinearLayout>
 
@@ -50,14 +53,16 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/dmajorbtn"
-            android:paddingEnd="@dimen/btn_space"/>
+            android:paddingEnd="@dimen/btn_space"
+            android:onClick="showDMajorScreen"/>
 
         <ImageButton
             android:id="@+id/eMajor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/emajorbtn" />
+            android:src="@drawable/emajorbtn"
+            android:onClick="showEMajorScreen"/>
 
         <ImageButton
             android:id="@+id/fMajor"
@@ -65,7 +70,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/fmajorbtn"
-            android:paddingStart="@dimen/btn_space"/>
+            android:paddingStart="@dimen/btn_space"
+            android:onClick="showFMajorScreen"/>
     </LinearLayout>
 
     <LinearLayout
@@ -81,14 +87,16 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/gmajorbtn"
-            android:paddingEnd="@dimen/btn_space"/>
+            android:paddingEnd="@dimen/btn_space"
+            android:onClick="showGMajorScreen"/>
 
         <ImageButton
             android:id="@+id/e7Major"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/e7majorbtn" />
+            android:src="@drawable/e7majorbtn"
+            android:onClick="showE7MajorScreen"/>
 
         <ImageButton
             android:id="@+id/a7Major"
@@ -96,6 +104,7 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/a7majorbtn"
-            android:paddingStart="@dimen/btn_space"/>
+            android:paddingStart="@dimen/btn_space"
+            android:onClick="showA7MajorScreen"/>
     </LinearLayout>
 </LinearLayout>
