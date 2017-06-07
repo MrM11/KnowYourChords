@@ -17,47 +17,47 @@ public class MajorActivity extends Activity {
     }
 
     public void showAMajorScreen(View view){
-        Intent majorIntent = new Intent(this, MajorActivity.class);
+        Intent majorIntent = new Intent(this, AMajActivity.class);
         startActivity(majorIntent);
     }
 
     public void showBMajorScreen(View view){
-        Intent minorIntent = new Intent (this, MinorActivity.class);
+        Intent minorIntent = new Intent (this, BMajActivity.class);
         startActivity(minorIntent);
     }
 
     public void showCMajorScreen (View view){
-        Intent helpIntent = new Intent (this, HelpActivity.class);
+        Intent helpIntent = new Intent (this, CMajActivity.class);
         startActivity(helpIntent);
     }
 
     public void showDMajorScreen(View view){
-        Intent majorIntent = new Intent(this, MajorActivity.class);
+        Intent majorIntent = new Intent(this, DMajActivity.class);
         startActivity(majorIntent);
     }
 
     public void showEMajorScreen(View view){
-        Intent minorIntent = new Intent (this, MinorActivity.class);
+        Intent minorIntent = new Intent (this, EMajActivity.class);
         startActivity(minorIntent);
     }
 
     public void showFMajorScreen (View view){
-        Intent helpIntent = new Intent (this, HelpActivity.class);
+        Intent helpIntent = new Intent (this, FMajActivity.class);
         startActivity(helpIntent);
     }
 
     public void showGMajorScreen(View view){
-        Intent minorIntent = new Intent (this, MinorActivity.class);
+        Intent minorIntent = new Intent (this, GMajActivity.class);
         startActivity(minorIntent);
     }
 
     public void showE7MajorScreen(View view){
-        Intent minorIntent = new Intent (this, MinorActivity.class);
+        Intent minorIntent = new Intent (this, E7MajActivity.class);
         startActivity(minorIntent);
     }
 
     public void showA7MajorScreen(View view){
-        Intent minorIntent = new Intent (this, MinorActivity.class);
+        Intent minorIntent = new Intent (this, A7MajActivity.class);
         startActivity(minorIntent);
     }
 }
