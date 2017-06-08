@@ -54,6 +54,17 @@
         <activity android:name=".FMajActivity"/>
         <activity android:name=".GMajActivity"/>
 
+        <activity android:name=".A7MinActivity"/>
+        <activity android:name=".AMinActivity"/>
+        <activity android:name=".BMinActivity"/>
+        <activity android:name=".CMinActivity"/>
+        <activity android:name=".DMinActivity"/>
+        <activity android:name=".E7MinActivity"/>
+        <activity android:name=".EMinActivity"/>
+        <activity android:name=".FMinActivity"/>
+        <activity android:name=".GMinActivity"/>
+
+
     </application>
 
 </manifest>

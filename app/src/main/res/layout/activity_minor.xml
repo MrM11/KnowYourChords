@@ -16,14 +16,16 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/aminorbtn"
-            android:paddingRight="@dimen/btn_space"/>
+            android:paddingRight="@dimen/btn_space"
+            android:onClick="showAMinorScreen"/>
 
         <ImageButton
             android:id="@+id/bMinor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/bminorbtn" />
+            android:src="@drawable/bminorbtn"
+            android:onClick="showBMinorScreen"/>
 
         <ImageButton
             android:id="@+id/cMinor"
@@ -31,7 +33,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/cminorbtn"
-            android:paddingStart="@dimen/btn_space"/>
+            android:paddingStart="@dimen/btn_space"
+            android:onClick="showCMinorScreen"/>
 
     </LinearLayout>
 
@@ -48,14 +51,16 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/dminorbtn"
-            android:paddingEnd="@dimen/btn_space"/>
+            android:paddingEnd="@dimen/btn_space"
+            android:onClick="showDMinorScreen"/>
 
         <ImageButton
             android:id="@+id/eMinor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/eminorbtn" />
+            android:src="@drawable/eminorbtn"
+            android:onClick="showEMinorScreen"/>
 
         <ImageButton
             android:id="@+id/fMinor"
@@ -63,7 +68,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/fminorbtn"
-            android:paddingStart="@dimen/btn_space"/>
+            android:paddingStart="@dimen/btn_space"
+            android:onClick="showFMinorScreen"/>
     </LinearLayout>
 
     <LinearLayout
@@ -79,14 +85,16 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/gminorbtn"
-            android:paddingEnd="@dimen/btn_space"/>
+            android:paddingEnd="@dimen/btn_space"
+            android:onClick="showGMinorScreen"/>
 
         <ImageButton
             android:id="@+id/eMinor7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/eminor7btn" />
+            android:src="@drawable/eminor7btn"
+            android:onClick="showE7MinorScreen"/>
 
         <ImageButton
             android:id="@+id/aMinor7"
@@ -94,7 +102,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/aminor7btn"
-            android:paddingStart="@dimen/btn_space"/>
+            android:paddingStart="@dimen/btn_space"
+            android:onClick="showA7MinorScreen"/>
     </LinearLayout>
 
 </LinearLayout>
