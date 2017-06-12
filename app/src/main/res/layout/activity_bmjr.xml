@@ -4,4 +4,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/bmajortab">
 
+    <Button
+        android:id="@+id/bPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sound_btn_space"
+        android:text="@string/listen_btn"/>
+
 </LinearLayout>

@@ -4,4 +4,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/amajor7tab">
 
+    <Button
+        android:id="@+id/a7Play"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sound_btn_space"
+        android:text="@string/listen_btn"/>
+
 </LinearLayout>
