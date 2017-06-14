@@ -25,7 +25,20 @@ public class A7MajActivity extends Activity {
         playA7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                a7SoundMediaPlayer.start();
+                Thread myThread = new Thread(){
+                    @Override
+                    public void run() {
+                        try {
+                            a7SoundMediaPlayer.start();
+                            sleep(8000);
+                            a7SoundMediaPlayer.stop();
+
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                };
+                myThread.start();
             }
         });
 
