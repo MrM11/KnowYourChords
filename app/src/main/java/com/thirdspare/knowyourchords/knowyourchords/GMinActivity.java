@@ -16,7 +16,7 @@ public class GMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gmin);
 
-        final MediaPlayer gmSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer gmSoundMediaPlayer = MediaPlayer.create(this, R.raw.gm_sound);
 
         final Button playGM = (Button) this.findViewById(R.id.gmPlay);
 

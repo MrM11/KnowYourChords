@@ -16,7 +16,7 @@ public class BMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmin);
 
-        final MediaPlayer bmSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer bmSoundMediaPlayer = MediaPlayer.create(this, R.raw.bm_sound);
 
         final Button playBM = (Button) this.findViewById(R.id.bmPlay);
 

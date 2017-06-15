@@ -16,7 +16,7 @@ public class CMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cmin);
 
-        final MediaPlayer cmSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer cmSoundMediaPlayer = MediaPlayer.create(this, R.raw.cm_sound);
 
         final Button playCM = (Button) this.findViewById(R.id.cmPlay);
 

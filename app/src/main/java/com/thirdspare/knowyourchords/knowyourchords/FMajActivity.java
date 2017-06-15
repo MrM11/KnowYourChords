@@ -16,7 +16,7 @@ public class FMajActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fmjr);
 
-        final MediaPlayer fSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer fSoundMediaPlayer = MediaPlayer.create(this, R.raw.f_sound);
 
         final Button playF = (Button) this.findViewById(R.id.fPlay);
 

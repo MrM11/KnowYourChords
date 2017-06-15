@@ -16,7 +16,7 @@ public class GMajActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gmjr);
 
-        final MediaPlayer gSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer gSoundMediaPlayer = MediaPlayer.create(this, R.raw.g_sound);
 
         final Button playG = (Button) this.findViewById(R.id.gPlay);
 

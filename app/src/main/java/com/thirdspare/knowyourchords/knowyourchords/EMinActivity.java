@@ -16,7 +16,7 @@ public class EMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emin);
 
-        final MediaPlayer emSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer emSoundMediaPlayer = MediaPlayer.create(this, R.raw.em_sound);
 
         final Button playEM = (Button) this.findViewById(R.id.emPlay);
 

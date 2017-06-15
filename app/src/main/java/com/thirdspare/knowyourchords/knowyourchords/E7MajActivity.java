@@ -16,7 +16,7 @@ public class E7MajActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_e7mjr);
 
-        final MediaPlayer e7SoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer e7SoundMediaPlayer = MediaPlayer.create(this, R.raw.e7_sound);
 
         final Button playE7 = (Button) this.findViewById(R.id.e7Play);
 

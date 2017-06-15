@@ -16,7 +16,7 @@ public class A7MinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a7min);
 
-        final MediaPlayer a7mSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer a7mSoundMediaPlayer = MediaPlayer.create(this, R.raw.am7_sound);
 
         final Button playA7M = (Button) this.findViewById(R.id.a7mPlay);
 

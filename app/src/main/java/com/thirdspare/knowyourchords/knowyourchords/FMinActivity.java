@@ -16,7 +16,7 @@ public class FMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fmin);
 
-        final MediaPlayer fmSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer fmSoundMediaPlayer = MediaPlayer.create(this, R.raw.fm_sound);
 
         final Button playFM = (Button) this.findViewById(R.id.fmPlay);
 

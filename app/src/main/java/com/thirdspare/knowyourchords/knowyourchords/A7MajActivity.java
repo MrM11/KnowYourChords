@@ -18,30 +18,21 @@ public class A7MajActivity extends Activity {
         setContentView(R.layout.activity_a7mjr);
 
 
-        final MediaPlayer a7SoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer a7SoundMediaPlayer = MediaPlayer.create(this, R.raw.a7_sound);
 
         final Button playA7 = (Button) this.findViewById(R.id.a7Play);
+
 
         playA7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Thread myThread = new Thread(){
-                    @Override
-                    public void run() {
-                        try {
-                            a7SoundMediaPlayer.start();
-                            sleep(8000);
-                            a7SoundMediaPlayer.stop();
-
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                };
-                myThread.start();
+                a7SoundMediaPlayer.start();
             }
         });
 
     }
 }
+
+
+
 

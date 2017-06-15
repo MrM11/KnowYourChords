@@ -16,7 +16,7 @@ public class BMajActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmjr);
 
-        final MediaPlayer bSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer bSoundMediaPlayer = MediaPlayer.create(this, R.raw.b_sound);
 
         final Button playB = (Button) this.findViewById(R.id.bPlay);
 

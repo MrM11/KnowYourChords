@@ -16,7 +16,7 @@ public class AMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_amin);
 
-        final MediaPlayer amSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer amSoundMediaPlayer = MediaPlayer.create(this, R.raw.am_sound);
 
         final Button playAm = (Button) this.findViewById(R.id.amPlay);
 

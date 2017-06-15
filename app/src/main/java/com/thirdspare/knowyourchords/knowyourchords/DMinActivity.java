@@ -16,7 +16,7 @@ public class DMinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dmin);
 
-        final MediaPlayer dmSoundMediaPlayer = MediaPlayer.create(this, R.raw.cat_sound);
+        final MediaPlayer dmSoundMediaPlayer = MediaPlayer.create(this, R.raw.dm_sound);
 
         final Button playDM = (Button) this.findViewById(R.id.dmPlay);
 
