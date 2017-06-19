@@ -15,7 +15,7 @@ public class MajorActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_major);
     }
-
+    //all of the following methods bring the user to the tabs of which ever chord they wish to play
     public void showAMajorScreen(View view){
         Intent majorIntent = new Intent(this, AMajActivity.class);
         startActivity(majorIntent);

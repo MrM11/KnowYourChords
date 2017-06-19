@@ -15,7 +15,7 @@ public class MinorActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_minor);
     }
-
+    //all of the following methods bring the user to the tabs of which ever chord they wish to play
     public void showAMinorScreen(View view){
         Intent majorIntent = new Intent(this, AMinActivity.class);
         startActivity(majorIntent);

@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-
+    //when the button is clicked it will direct the user to the screen they wish to view
     public void showMajorScreen(View view){
         Intent majorIntent = new Intent(this, MajorActivity.class);
         startActivity(majorIntent);
